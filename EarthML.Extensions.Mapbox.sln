@@ -5,6 +5,26 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthML.Extensions.Mapbox.UploadCLI", "apps\EarthML.Extensions.Mapbox.UploadCLI\EarthML.Extensions.Mapbox.UploadCLI.csproj", "{5FC3DF42-441D-44F1-BFE5-E302DFE39AF9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB03D4ED-8E1E-4861-B2B5-9E673957722B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{0F294A29-58A3-4BCB-A91F-A4DD11F861C5}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{A1EC932B-619E-4F32-A18C-14417E1CEA60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{75B80F35-A350-44F1-9016-BDEB17AA2CBC}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\.releaserc = .github\workflows\.releaserc
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+		.github\workflows\todo.yml = .github\workflows\todo.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75B80F35-A350-44F1-9016-BDEB17AA2CBC} = {A1EC932B-619E-4F32-A18C-14417E1CEA60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E59EA6E-ED92-495A-BE12-243B225B5267}

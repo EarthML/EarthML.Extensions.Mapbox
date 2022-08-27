@@ -6,8 +6,24 @@
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>disable</Nullable>
 		<UserSecretsId>6ae02921-9672-4afd-9727-0029aeaa7204</UserSecretsId>
+
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>earthml-mapbox</ToolCommandName>
+
+		<PackageOutputPath>./../../artifacts</PackageOutputPath>
+
+		<Title>EarthML.Extensions.Mapbox.UploadCLI</Title>
+		<Authors>Poul Kjeldager</Authors>
+		<Description>A tool for uploading to mapbox for dotnet devs</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/EAVFW/EAVFW.Extensions.Manifest.ManifestEnricherTool</RepositoryUrl>
+		
 	</PropertyGroup>
-	
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Link="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
 	
 	<ItemGroup>
 		<PackageReference Include="AWSSDK.S3" Version="3.7.9.43" />
