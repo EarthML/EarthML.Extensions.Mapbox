@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "EarthML.Extensions.Mapbox.UploadCLI": {
+      "commandName": "Project",
+      "commandLineArgs": "upload",
+      "environmentVariables": {
+       
+      }
+    }
+  }
+}
