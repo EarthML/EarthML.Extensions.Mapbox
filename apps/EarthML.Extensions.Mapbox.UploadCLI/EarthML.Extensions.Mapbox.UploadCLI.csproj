@@ -16,7 +16,7 @@
 		<Authors>Poul Kjeldager</Authors>
 		<Description>A tool for uploading to mapbox for dotnet devs</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/EAVFW/EAVFW.Extensions.Manifest.ManifestEnricherTool</RepositoryUrl>
+		<RepositoryUrl>https://github.com/EarthML/EarthML.Extensions.Mapbox</RepositoryUrl>
 		
 	</PropertyGroup>
 
