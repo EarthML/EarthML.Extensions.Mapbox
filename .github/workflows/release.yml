@@ -45,7 +45,7 @@ jobs:
         run: dotnet clean --configuration Release
 
       - name: Restore NuGet packages
-        run: dotnet restore EAVFW.Extensions.Manifest.ManifestEnricherTool.sln
+        run: dotnet restore EarthML.Extensions.Mapbox.sln
 
       - name: Package Parser
         run: dotnet pack -c Release -p:PackageVersion=${env:RELEASE_VERSION} -o ./artifacts
